@@ -39,8 +39,8 @@ export default function B1() {
               We aim to decentralize internet services, enabling a peer-to-peer
               economy where every individual can share unused bandwidth and
               computing power for a reward. The future of the internet
-              isn&apos;t just about connecting people; it's about empowering
-              them to contribute to its evolution.
+              isn&apos;t just about connecting people; it&apos;s about
+              empowering them to contribute to its evolution.
               <br />
               (Include a call to action to explore Flow3 Network)
             </div>
