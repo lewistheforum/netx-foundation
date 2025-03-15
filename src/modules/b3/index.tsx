@@ -14,12 +14,12 @@ export default function B3() {
           priority
           className="object-cover opacity-10 scale-x-[-1]"
         />
-        <div className="relative grid grid-cols-12 gap-10 p-10 px-5 lg:px-44">
+        <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 p-10 px-5 lg:px-44">
           <div className="col-span-7 flex flex-col justify-center gap-0 lg:gap-6">
             <div className="text-black text-3xl font-semibold">
               NetX Innovation Grant
             </div>
-            <div className="text-black text-base w-full lg:w-5/6 py-10">
+            <div className="text-black text-base w-full text-justify lg:text-left lg:w-5/6 py-10">
               NetX is dedicated to empowering the innovators shaping the future
               of decentralized internet technologies. Our goal is to support
               projects that improve global connectivity, bridge digital gaps,

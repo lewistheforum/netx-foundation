@@ -16,7 +16,7 @@ export default function B1() {
             height={1000}
             className="w-full h-auto object-cover"
           />
-          <div className="absolute left-0 sm:left-6 md:left-8 bottom-0 sm:bottom-10 md:bottom-16 flex flex-col justify-end p-4 sm:p-5 gap-2 sm:gap-3">
+          <div className="absolute left-0 sm:left-6 md:left-8 bottom-0 sm:bottom-10 md:bottom-12 flex flex-col justify-end p-4 sm:p-5 gap-2 sm:gap-3">
             <div className="text-black font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               About NetX
             </div>
@@ -31,7 +31,7 @@ export default function B1() {
 
         {/* Right Section with Text */}
         <div className="relative col-span-12 lg:col-span-5 border border-[#E9E9E9] border-t-0 lg:border-t lg:border-l-0 h-72 lg:h-auto">
-          <div className="absolute bottom-5 sm:bottom-10 md:bottom-16 flex flex-col justify-end p-4 sm:p-5 gap-2 sm:gap-3">
+          <div className="absolute bottom-5 sm:bottom-10 md:bottom-0 flex flex-col justify-end p-4 sm:p-5 gap-2 sm:gap-3">
             <div className="text-black font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               Our Mission
             </div>
