@@ -67,7 +67,7 @@ export default function Header() {
               alt=""
               width={1000}
               height={1000}
-              className="w-full h-full scale-x-[-1]"
+              className="w-full h-full scale-x-[-1] float-in-space1"
             />
           </div>
         </div>

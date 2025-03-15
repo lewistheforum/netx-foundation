@@ -35,7 +35,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-0"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             Decentralized Internet Infrastructure
@@ -48,7 +48,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-12 h-full"
+            className="w-12 h-full updown-animation delay-1"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             Blockchain & Smart Contract Development
@@ -61,7 +61,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-2"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             AI-Driven Connectivity & Data Models
@@ -74,7 +74,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-3"
           />
           <div className="text-black text-xl font-bold w-full text-center">
             Global Connectivity Solutions
@@ -90,7 +90,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-0"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             Decentralized Internet Infrastructure
@@ -103,7 +103,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-12 h-full"
+            className="w-12 h-full updown-animation delay-1"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             Blockchain & Smart Contract Development
@@ -116,7 +116,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-2"
           />
           <div className="text-black text-xl font-bold w-2/3 text-center">
             AI-Driven Connectivity & Data Models
@@ -129,7 +129,7 @@ export default function B4() {
             alt=""
             width={1000}
             height={1000}
-            className="w-16 h-full"
+            className="w-16 h-full updown-animation delay-3"
           />
           <div className="text-black text-xl font-bold w-full text-center">
             Global Connectivity Solutions
