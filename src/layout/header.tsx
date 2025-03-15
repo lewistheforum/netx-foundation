@@ -1,22 +1,88 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../../public/head/title-b5.png";
+import x from "../../public/head/x.png";
+import bg from "../../public/head/background-white.jpeg";
+import main from "../../public/head/logo-main.png";
 // import hamburger from "../../public/hamburger.svg";
-// import Image from "next/image";
+// import { useCopyToClipboard } from "usehooks-ts";
+// import toast from "react-hot-toast";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  // const [, copy] = useCopyToClipboard();
 
   return (
-    <div className="text-white bg-red-500">
-      HEADER
+    <div className="text-white">
+      <div className="bg-black flex flex-row justify-between items-center p-5 px-5 lg:px-44">
+        <div>
+          <Image
+            src={logo}
+            alt=""
+            width={1000}
+            height={1000}
+            className="w-full h-10"
+          />
+        </div>
+        <div>
+          <Image
+            src={x}
+            alt=""
+            width={1000}
+            height={1000}
+            className="w-full h-5"
+          />
+        </div>
+      </div>
+      <div className="relative border-b border-black">
+        <Image
+          src={bg}
+          alt=""
+          fill
+          priority
+          className="object-cover opacity-10"
+        />
+        <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 p-10 px-5 lg:px-44">
+          <div className="lg:col-span-7 flex flex-col justify-center gap-6 ">
+            <div className="text-black text-5xl font-semibold">
+              Fueling the Future of DePIN and AI Innovation
+            </div>
+            <div className="text-black text-xl w-full lg:w-1/2">
+              Join the movement to build a smarter, more equitable digital
+              ecosystem.
+            </div>
+            <div className="flex">
+              <div className="bg-black text-white px-10 py-3">
+                Apply For Funding
+              </div>
+            </div>
+          </div>
+          <div className="lg:col-span-5">
+            {" "}
+            <Image
+              src={main}
+              alt=""
+              width={1000}
+              height={1000}
+              className="w-full h-full scale-x-[-1]"
+            />
+          </div>
+        </div>
+      </div>
       {/* <div
         onClick={() => setOpen(!open)}
         className="md:hidden flex justify-end"
       >
         <Image src={hamburger} height={25} width={25} alt="Hamburger Menu" />
       </div> */}
+      {/* onClick=
+      {() => {
+        copy("0x2858E541f108161aC2A9ba301f52F515BeEBa3C3");
+        toast.success("Copied!");
+      }} */}
       {open && (
         <div className="fixed top-0 left-0 bottom-0 right-0 h-full w-full bg-white shadow-md z-20">
           <div
