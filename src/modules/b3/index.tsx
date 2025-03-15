@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import bg from "../../../public/head/background-white.jpeg";
-import main from "../../../public/head/logo-main.png";
 
 export default function B3() {
   return (

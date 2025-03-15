@@ -6,8 +6,6 @@ import i2 from "../../../public/body/icon-2.png";
 import i3 from "../../../public/body/icon-3.png";
 import bg from "../../../public/head/background-black.jpeg";
 
-import { Plus } from "lucide-react";
-
 export default function B5() {
   return (
     <div className=" flex flex-col items-center justify-center p-6 my-16">
@@ -42,8 +40,8 @@ export default function B5() {
             </h2>
             <div className="px-6 pb-5 pr-16 text-base">
               <div className="flex flex-row gap-3 mt-3">
-                + Provide your project details, including team info and
-                projectcategory.
+                + Provide your project details, including team info and project
+                category.
               </div>
               <div className="flex flex-row gap-3 mt-3">
                 + Select the funding size.
@@ -114,7 +112,7 @@ export default function B5() {
             <div className="px-6 pb-5 pr-16 text-base">
               <div className="flex flex-row gap-3 mt-3">
                 + If approved, the grant will be awarded with the necessary
-                support for your project's development.
+                support for your project&apos;s development.
               </div>
             </div>
           </div>

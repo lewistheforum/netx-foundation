@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import x from "../../public/head/x.png";
-
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white text-black">
