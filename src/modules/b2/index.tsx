@@ -11,10 +11,10 @@ export default function B2() {
             internet infrastructure.
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 w-full">
           {/* ITEM 1  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-80 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -33,7 +33,9 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black font-bold">John Carter</div>
+                <div className="text-black text-lg lg:text-lg font-bold">
+                  John Carter
+                </div>
               </div>
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -45,7 +47,9 @@ export default function B2() {
                 >
                   <rect width="5" height="5" rx="1" fill="#343434" />
                 </svg>
-                <div className="text-black">Founder & CEO</div>
+                <div className="text-black text-lg lg:text-lg">
+                  Founder & CEO
+                </div>
               </div>
               <div className="flex flex-row items-start gap-2">
                 <svg
@@ -61,7 +65,7 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black w-64">
+                <div className="text-black w-full lg:w-64">
                   A visionary leader with over 10 years of experience in
                   blockchain, decentralized networks, and fintech. John has been
                   pivotal in leading several successful startups focused on
@@ -72,7 +76,7 @@ export default function B2() {
           </div>
           {/* ITEM 2  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-80 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -91,7 +95,9 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black font-bold">Sophie Miller</div>
+                <div className="text-black text-lg lg:text-lg font-bold">
+                  Sophie Miller
+                </div>
               </div>
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -103,7 +109,7 @@ export default function B2() {
                 >
                   <rect width="5" height="5" rx="1" fill="#343434" />
                 </svg>
-                <div className="text-black">Co-Founder</div>
+                <div className="text-black text-lg lg:text-lg">Co-Founder</div>
               </div>
               <div className="flex flex-row items-start gap-2">
                 <svg
@@ -119,7 +125,7 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black w-64">
+                <div className="text-black w-full lg:w-64">
                   A visionary leader with over 10 years of experience in
                   blockchain, decentralized networks, and fintech. John has been
                   pivotal in leading several successful startups focused on
@@ -130,7 +136,7 @@ export default function B2() {
           </div>
           {/* ITEM 3  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-80 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -149,7 +155,9 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black font-bold">Ethan Blackwood</div>
+                <div className="text-black text-lg lg:text-lg font-bold">
+                  Ethan Blackwood
+                </div>
               </div>
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -161,7 +169,9 @@ export default function B2() {
                 >
                   <rect width="5" height="5" rx="1" fill="#343434" />
                 </svg>
-                <div className="text-black">General Partner</div>
+                <div className="text-black text-lg lg:text-lg">
+                  General Partner
+                </div>
               </div>
               <div className="flex flex-row items-start gap-2">
                 <svg
@@ -177,7 +187,7 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black w-64">
+                <div className="text-black w-full lg:w-64">
                   A visionary leader with over 10 years of experience in
                   blockchain, decentralized networks, and fintech. John has been
                   pivotal in leading several successful startups focused on
@@ -188,7 +198,7 @@ export default function B2() {
           </div>
           {/* ITEM 4  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-80 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -207,7 +217,9 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black font-bold">Isabelle Wong</div>
+                <div className="text-black text-lg lg:text-lg font-bold">
+                  Isabelle Wong
+                </div>
               </div>
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -219,7 +231,9 @@ export default function B2() {
                 >
                   <rect width="5" height="5" rx="1" fill="#343434" />
                 </svg>
-                <div className="text-black">General Partner</div>
+                <div className="text-black text-lg lg:text-lg">
+                  General Partner
+                </div>
               </div>
               <div className="flex flex-row items-start gap-2">
                 <svg
@@ -235,7 +249,7 @@ export default function B2() {
                     fill="#343434"
                   />
                 </svg>
-                <div className="text-black w-64">
+                <div className="text-black w-full lg:w-64">
                   A visionary leader with over 10 years of experience in
                   blockchain, decentralized networks, and fintech. John has been
                   pivotal in leading several successful startups focused on

@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </main>
-      <footer className="w-full mt-auto border-t border-gray-300 py-4 text-center">
+      <footer className="w-full mt-auto border-t border-gray-300 py-4 text-center text-sm lg:text-base">
         <p>Copyright 2025 by NetX Foundation. All rights reserved</p>
         <p className="mt-1">
           <a href="#" className="hover:underline">
