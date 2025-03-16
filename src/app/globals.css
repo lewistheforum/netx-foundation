@@ -106,6 +106,132 @@
   }
 }
 
+.scroll-bar-style::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 0px solid white;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.custom-checkbox:checked:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 6px;
+  height: 10px;
+  border: 1.5px solid white; /* White checkmark */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Custom range slider styles */
+.custom-range {
+  -webkit-appearance: none; /* Chrome, Safari, Opera */
+  appearance: none;
+  width: 100%;
+  height: 4px; /* Reduced from 20px to better fit the 4px track */
+  background: transparent; /* Ensure the background doesn't interfere */
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Track styles (Chrome, Safari, Opera) */
+.custom-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px; /* Already 4px, keeping it as is */
+  /* background: #343434; Gray track for unfilled portion */
+  border-radius: 2px;
+}
+
+/* Thumb styles (Chrome, Safari, Opera) */
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 0; /* Remove default rounding */
+  transform: rotate(45deg); /* Diamond shape */
+  cursor: pointer;
+  margin-top: -5px; /* Adjusted to center the thumb on the 4px track */
+}
+
+/* Track styles (Firefox) */
+.custom-range::-moz-range-track {
+  width: 100%;
+  height: 4px; /* Already 4px, keeping it as is */
+  background: #4b5563; /* Gray track for unfilled portion */
+  border-radius: 2px;
+}
+
+/* Thumb styles (Firefox) */
+.custom-range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 0;
+  transform: rotate(45deg); /* Diamond shape */
+  cursor: pointer;
+}
+
+/* Track styles (IE/Edge) */
+.custom-range::-ms-track {
+  width: 100%;
+  height: 4px; /* Already 4px, keeping it as is */
+  /* background: #4b5563; Gray track for unfilled portion */
+  border-radius: 2px;
+  color: transparent; /* Hide default track */
+}
+
+/* Thumb styles (IE/Edge) */
+.custom-range::-ms-thumb {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 2px solid white;
+  border-radius: 0;
+  transform: rotate(45deg); /* Diamond shape */
+  cursor: pointer;
+}
+
+/* Filled portion of the track (Firefox) */
+.custom-range::-moz-range-progress {
+  background: white;
+  height: 4px; /* Already 4px, keeping it as is */
+  border-radius: 2px;
+}
+
+/* Filled portion of the track (IE/Edge) */
+.custom-range::-ms-fill-lower {
+  background: white;
+  height: 4px; /* Already 4px, keeping it as is */
+  border-radius: 2px;
+}
+
+[data-radix-toast-viewport] [data-state="open"].toast-success {
+  @apply bg-green-500 text-white;
+}
+
+/* Optional: Ensure all child elements (title, description) have readable text */
+[data-radix-toast-viewport] [data-state="open"].toast-success > * {
+  @apply text-white;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

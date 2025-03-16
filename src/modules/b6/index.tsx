@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import main2 from "../../../public/body/main-logo-2.png";
+import Link from "next/link";
 
 export default function B6() {
   return (
@@ -25,7 +26,10 @@ export default function B6() {
         smarter internet ecosystem. It’s a new way to empower individuals and
         drive AI innovation through decentralized infrastructure.
       </div>
-      <div className="bg-black px-7 py-2 flex flex-row justify-center items-center gap-3">
+      <Link
+        href={process.env.NEXT_PUBLIC_EMAIL || "#"}
+        className="bg-black px-7 py-2 flex flex-row justify-center items-center gap-3"
+      >
         <div className="text-white font-medium text-lg">
           Visit Flow3 Network{" "}
         </div>
@@ -41,7 +45,7 @@ export default function B6() {
             fill="white"
           />
         </svg>
-      </div>
+      </Link>
     </div>
   );
 }

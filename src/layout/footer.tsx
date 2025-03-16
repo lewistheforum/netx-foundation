@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white text-black">
@@ -49,7 +51,11 @@ const Footer = () => {
           <p className="text-xl font-semibold mb-7">
             Follow us for the latest news and insights!
           </p>
-          <div className="flex justify-center items-center gap-4 mt-4">
+          <Link
+            href={process.env.NEXT_PUBLIC_X_URL || "#"}
+            target="_blank"
+            className="flex justify-center items-center gap-4 mt-4"
+          >
             <svg
               width="37"
               height="34"
@@ -62,7 +68,7 @@ const Footer = () => {
                 fill="black"
               />
             </svg>
-          </div>
+          </Link>
         </div>
       </main>
       <footer className="w-full mt-auto border-t border-gray-300 py-4 text-center text-sm lg:text-base">

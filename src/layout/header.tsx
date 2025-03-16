@@ -10,10 +10,23 @@ import main from "../../public/head/logo-main.png";
 // import hamburger from "../../public/hamburger.svg";
 // import { useCopyToClipboard } from "usehooks-ts";
 // import toast from "react-hot-toast";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
+import ApplicationForm from "@/modules/components";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   // const [, copy] = useCopyToClipboard();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleCloseDialog = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className="text-white">
@@ -27,7 +40,7 @@ export default function Header() {
             className="w-44 h-10"
           />
         </div>
-        <div>
+        <Link href={process.env.NEXT_PUBLIC_X_URL || "#"} target="_blank">
           <Image
             src={x}
             alt=""
@@ -35,7 +48,7 @@ export default function Header() {
             height={1000}
             className="w-full h-5"
           />
-        </div>
+        </Link>
       </div>
       <div className="relative border-b border-black">
         <Image
@@ -55,9 +68,20 @@ export default function Header() {
               ecosystem.
             </div>
             <div className="flex">
-              <div className="bg-black text-white px-10 py-3">
-                Apply For Funding
-              </div>
+              <Dialog open={isOpen} onOpenChange={setIsOpen}>
+                <DialogTrigger>
+                  <div className="bg-black text-white px-10 py-3">
+                    Apply For Funding
+                  </div>
+                </DialogTrigger>
+                <DialogTitle></DialogTitle>
+                <DialogContent
+                  className="max-w-[600px] max-h-[90vh] bg-black border border-black"
+                  showCloseButton={true}
+                >
+                  <ApplicationForm onClose={handleCloseDialog} />
+                </DialogContent>
+              </Dialog>
             </div>
           </div>
           <div className="lg:col-span-5">
