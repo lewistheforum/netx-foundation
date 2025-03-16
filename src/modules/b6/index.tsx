@@ -28,6 +28,7 @@ export default function B6() {
       </div>
       <Link
         href={process.env.NEXT_PUBLIC_EMAIL || "#"}
+        target="_blank"
         className="bg-black px-7 py-2 flex flex-row justify-center items-center gap-3"
       >
         <div className="text-white font-medium text-lg">

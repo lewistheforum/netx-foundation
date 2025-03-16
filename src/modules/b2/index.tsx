@@ -1,5 +1,11 @@
 "use client";
 
+import Image from "next/image";
+import avt1 from "../../../public/body/avt1.png";
+import avt2 from "../../../public/body/avt2.png";
+import avt3 from "../../../public/body/avt3.png";
+import avt4 from "../../../public/body/avt4.png";
+
 export default function B2() {
   return (
     <div className="text-white">
@@ -14,7 +20,15 @@ export default function B2() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 w-full">
           {/* ITEM 1  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+              <Image
+                src={avt1}
+                alt=""
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -76,7 +90,15 @@ export default function B2() {
           </div>
           {/* ITEM 2  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+              <Image
+                src={avt2}
+                alt=""
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -136,7 +158,15 @@ export default function B2() {
           </div>
           {/* ITEM 3  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+              <Image
+                src={avt3}
+                alt=""
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
@@ -198,7 +228,15 @@ export default function B2() {
           </div>
           {/* ITEM 4  */}
           <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400"></div>
+            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+              <Image
+                src={avt4}
+                alt=""
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="ml-2">
               <div className="flex flex-row items-center gap-2">
                 <svg
