@@ -5,8 +5,21 @@ import i1 from "../../../public/body/icon-1.png";
 import i2 from "../../../public/body/icon-2.png";
 import i3 from "../../../public/body/icon-3.png";
 import bg from "../../../public/head/background-black.jpeg";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { useState } from "react";
+import ApplicationForm from "../components";
 
 export default function B5() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleCloseDialog = () => {
+    setIsOpen(false);
+  };
   return (
     <div className=" flex flex-col items-center justify-center p-6 my-16">
       <h1 className="text-4xl font-bold mb-10">How to Apply</h1>
@@ -120,9 +133,21 @@ export default function B5() {
       </div>
 
       {/* Button */}
-      <button className="mt-20 bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 transition">
-        Apply Now
-      </button>
+
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogTrigger>
+          <button className="mt-20 bg-black text-white px-6 py-3 font-semibold hover:bg-gray-800 transition">
+            Apply Now
+          </button>
+        </DialogTrigger>
+        <DialogTitle></DialogTitle>
+        <DialogContent
+          className="max-w-[600px] max-h-[90vh] bg-black border border-black"
+          showCloseButton={true}
+        >
+          <ApplicationForm onClose={handleCloseDialog} />
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

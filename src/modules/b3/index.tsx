@@ -2,8 +2,21 @@
 
 import Image from "next/image";
 import bg from "../../../public/head/background-white.jpeg";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { useState } from "react";
+import ApplicationForm from "../components";
 
 export default function B3() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleCloseDialog = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="text-white my-32">
       <div className="relative">
@@ -28,9 +41,20 @@ export default function B3() {
               accelerate the development of next-generation solutions.
             </div>
             <div className="flex">
-              <div className="bg-black text-lg font-bold text-white px-10 py-2">
-                Apply Now
-              </div>
+              <Dialog open={isOpen} onOpenChange={setIsOpen}>
+                <DialogTrigger>
+                  <div className="bg-black text-lg font-bold text-white px-10 py-2">
+                    Apply Now
+                  </div>
+                </DialogTrigger>
+                <DialogTitle></DialogTitle>
+                <DialogContent
+                  className="max-w-[600px] max-h-[90vh] bg-black border border-black"
+                  showCloseButton={true}
+                >
+                  <ApplicationForm onClose={handleCloseDialog} />
+                </DialogContent>
+              </Dialog>
             </div>
           </div>
         </div>
