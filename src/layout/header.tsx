@@ -18,13 +18,13 @@ export default function Header() {
   return (
     <div className="text-white">
       <div className="bg-black flex flex-row justify-between items-center p-5 px-5 lg:px-44">
-        <div>
+        <div className="flex w-full">
           <Image
             src={logo}
             alt=""
             width={1000}
             height={1000}
-            className="w-full h-10"
+            className="w-44 h-10"
           />
         </div>
         <div>
