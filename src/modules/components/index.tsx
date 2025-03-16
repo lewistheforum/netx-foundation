@@ -49,7 +49,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
 
   const handleDealSizeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const index = parseInt(e.target.value);
-    const dealSizes = ["$0M", "$100K", "$500K", "$1M", "$5M", "$10M", "$15M"];
+    const dealSizes = ["$0K", "$100K", "$500K", "$1M", "$5M", "$10M", "$15M"];
     setFormData((prev) => ({
       ...prev,
       dealSize: dealSizes[index],
@@ -59,7 +59,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   useEffect(() => {
     if (rangeRef.current) {
       const index = [
-        "$0M",
+        "$0K",
         "$100K",
         "$500K",
         "$1M",
@@ -94,7 +94,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       }
     }
 
-    if (formData.dealSize === "$0M") {
+    if (formData.dealSize === "$0K") {
       toast({
         title: "",
         description: "Deal Size must be greater than $0M.",
@@ -233,7 +233,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             </label>
             <div className="flex flex-col items-center space-x-0 mt-1">
               <div className="flex justify-center gap-9 w-full text-sm mb-3">
-                <div className="ml-3">$0M</div>
+                <div className="ml-3">$0K</div>
                 <div>$100K</div>
                 <div>$500K</div>
                 <div>$1M</div>
