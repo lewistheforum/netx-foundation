@@ -131,7 +131,10 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   return (
     <div className="min-h-[90vh] bg-black text-white p-6">
       <div className="max-h-[80vh] overflow-y-auto scroll-bar-style">
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
+        <form
+          onSubmit={handleSubmit}
+          className="w-80 lg:max-w-md mx-auto space-y-4"
+        >
           <h2 className="text-2xl font-bold text-center">Application Form</h2>
 
           {/* Full Name */}

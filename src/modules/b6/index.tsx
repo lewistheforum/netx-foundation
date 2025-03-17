@@ -19,7 +19,7 @@ export default function B6() {
           className=" w-72 lg:w-[450px] h-full"
         />
       </div>
-      <div className="w-5/6 lg:w-1/2 text-center">
+      <div className="w-5/6 lg:w-1/2 text-center text-black">
         Flow3 Network is a leading DePIN project that allows users to monetize
         unused internet bandwidth and computing power. By sharing these
         resources, users earn rewards while contributing to a decentralized,

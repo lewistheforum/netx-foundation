@@ -22,7 +22,7 @@ export default function B5() {
   };
   return (
     <div className=" flex flex-col items-center justify-center p-6 my-16">
-      <h1 className="text-4xl font-bold mb-10">How to Apply</h1>
+      <h1 className="text-4xl text-black font-bold mb-10">How to Apply</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-20 max-w-4xl">
         {/* Card 1 */}
@@ -47,7 +47,7 @@ export default function B5() {
               <span className="text-5xl font-bold">01</span>
             </div>
           </div>
-          <div className=" bg-[#DDDDDD]">
+          <div className=" bg-[#DDDDDD] text-black">
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Application
             </h2>
@@ -84,7 +84,7 @@ export default function B5() {
               <span className="text-5xl font-bold">02</span>
             </div>
           </div>
-          <div className=" bg-[#DDDDDD]">
+          <div className=" bg-[#DDDDDD] text-black">
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Evaluation
             </h2>
@@ -118,7 +118,7 @@ export default function B5() {
               <span className="text-5xl font-bold">03</span>
             </div>
           </div>
-          <div className=" bg-[#DDDDDD]">
+          <div className=" bg-[#DDDDDD] text-black">
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Decision
             </h2>
