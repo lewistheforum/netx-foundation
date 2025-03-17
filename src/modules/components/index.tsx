@@ -23,7 +23,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     projectWebsite: "",
     socialMediaLinks: "",
     teamLocation: "",
-    dealSize: "$0K",
+    dealSize: "$100K",
     projectDescription: "",
     projectCategory: [],
   });
@@ -133,7 +133,7 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       <div className="max-h-[80vh] overflow-y-auto scroll-bar-style">
         <form
           onSubmit={handleSubmit}
-          className="w-80 lg:max-w-md mx-auto space-y-4"
+          className="w-80 lg:w-full lg:max-w-md mx-auto space-y-4"
         >
           <h2 className="text-2xl font-bold text-center">Application Form</h2>
 
@@ -235,8 +235,8 @@ const ApplicationForm: React.FC<{ onClose: () => void }> = ({ onClose }) => {
               Deal Size* (Choose funding size via slider)
             </label>
             <div className="flex flex-col items-center space-x-0 mt-1">
-              <div className="flex justify-center gap-9 w-full text-sm mb-3">
-                <div className="ml-3">$0K</div>
+              <div className="flex justify-center gap-[13px] lg:gap-[34px] w-full text-sm mb-3">
+                <div className="ml-0 lg:ml-0">$0K</div>
                 <div>$100K</div>
                 <div>$500K</div>
                 <div>$1M</div>
