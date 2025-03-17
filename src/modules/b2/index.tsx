@@ -9,7 +9,7 @@ import avt4 from "../../../public/body/avt4.png";
 export default function B2() {
   return (
     <div className="text-white">
-      <div className="flex flex-col justify-center items-center px-5 lg:px-44">
+      <div className="flex flex-col justify-center items-center px-5 lg:px-32 xl:px-44">
         <div className="flex flex-col justify-center items-center mb-14">
           <div className="text-black text-[36px] font-bold">Founding Team</div>
           <div className="text-black text-[20px] text-center">
@@ -19,14 +19,14 @@ export default function B2() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 w-full">
           {/* ITEM 1  */}
-          <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+          <div className="flex flex-col justify-start gap-5">
+            <div className="w-full h-80 lg:w-full xl:w-full lg:h-64 xl:h-76 2xl:h-80 border border-gray-400">
               <Image
                 src={avt1}
                 alt=""
                 width={1000}
                 height={1000}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="ml-2">
@@ -89,14 +89,14 @@ export default function B2() {
             </div>
           </div>
           {/* ITEM 2  */}
-          <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+          <div className="flex flex-col justify-start gap-5">
+            <div className="w-full h-80 lg:w-full xl:w-full lg:h-64 xl:h-76 2xl:h-80 border border-gray-400">
               <Image
                 src={avt2}
                 alt=""
                 width={1000}
                 height={1000}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="ml-2">
@@ -148,17 +148,16 @@ export default function B2() {
                   />
                 </svg>
                 <div className="text-black w-full lg:w-64">
-                  A visionary leader with over 10 years of experience in
-                  blockchain, decentralized networks, and fintech. John has been
-                  pivotal in leading several successful startups focused on
-                  decentralized infrastructure.
+                  Blockchain architect with extensive experience in building
+                  secure, scalable decentralized networks. Sophie previously led
+                  product development at a leading AI tech company.
                 </div>
               </div>
             </div>
           </div>
           {/* ITEM 3  */}
-          <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+          <div className="flex flex-col justify-start gap-5">
+            <div className="w-full h-80 lg:w-full xl:w-full lg:h-64 xl:h-76 2xl:h-80 border border-gray-400">
               <Image
                 src={avt3}
                 alt=""
@@ -218,23 +217,22 @@ export default function B2() {
                   />
                 </svg>
                 <div className="text-black w-full lg:w-64">
-                  A visionary leader with over 10 years of experience in
-                  blockchain, decentralized networks, and fintech. John has been
-                  pivotal in leading several successful startups focused on
-                  decentralized infrastructure.
+                  Expert in venture capital and emerging tech investments. Ethan
+                  has been at the forefront of several successful funding rounds
+                  for blockchain and AI-driven companies.
                 </div>
               </div>
             </div>
           </div>
           {/* ITEM 4  */}
-          <div className="flex flex-col justify-center gap-5">
-            <div className="w-full h-96 lg:w-64 lg:h-64 border border-gray-400">
+          <div className="flex flex-col justify-start gap-5">
+            <div className="w-full h-80 lg:w-full xl:w-full lg:h-64 xl:h-76 2xl:h-80 border border-gray-400">
               <Image
                 src={avt4}
                 alt=""
                 width={1000}
                 height={1000}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="ml-2">
@@ -288,10 +286,9 @@ export default function B2() {
                   />
                 </svg>
                 <div className="text-black w-full lg:w-64">
-                  A visionary leader with over 10 years of experience in
-                  blockchain, decentralized networks, and fintech. John has been
-                  pivotal in leading several successful startups focused on
-                  decentralized infrastructure.
+                  With a background in cloud computing and business strategy,
+                  Isabelle has over a decade of experience in leading tech
+                  innovations, focusing on decentralized business models.
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ import frame from "../../../public/body/frame.png";
 export default function B1() {
   return (
     <div className="text-white">
-      <div className="grid grid-cols-1 lg:grid-cols-12 p-4 sm:p-6 md:p-10 lg:px-44 py-16 sm:py-20 md:py-24">
+      <div className="grid grid-cols-1 lg:grid-cols-12 p-4 sm:p-6 md:p-10 lg:px-32 xl:px-44 py-16 sm:py-20 md:py-24">
         {/* Left Section with Image and Text */}
         <div className="relative col-span-12 lg:col-span-7 border border-[#E9E9E9] border-b lg:border-r-0">
           <Image
@@ -41,8 +41,6 @@ export default function B1() {
               computing power for a reward. The future of the internet
               isn&apos;t just about connecting people; it&apos;s about
               empowering them to contribute to its evolution.
-              <br />
-              (Include a call to action to explore Flow3 Network)
             </div>
           </div>
         </div>

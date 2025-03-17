@@ -29,7 +29,7 @@ export default function B4() {
           className="w-full h-full"
         />
         {/* ITEM 1  */}
-        <div className="absolute top-[0%] left-[20%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
+        <div className="absolute -top-[6%] xl:-top-[3%] 2xl:top-[0%] left-[20%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
           <Image
             src={i1}
             alt=""
@@ -37,12 +37,12 @@ export default function B4() {
             height={1000}
             className="w-16 h-full updown-animation delay-0"
           />
-          <div className="text-black text-xl font-bold w-2/3 text-center">
+          <div className="text-black text-base xl:text-xl font-bold w-2/3 text-center">
             Decentralized Internet Infrastructure
           </div>
         </div>
         {/* ITEM 2  */}
-        <div className="absolute top-[3%] right-[15%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
+        <div className="absolute -top-[3%] xl:-top-[0%] 2xl:top-[3%] right-[15%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
           <Image
             src={i2}
             alt=""
@@ -50,12 +50,12 @@ export default function B4() {
             height={1000}
             className="w-12 h-full updown-animation delay-1"
           />
-          <div className="text-black text-xl font-bold w-2/3 text-center">
+          <div className="text-black text-base xl:text-xl font-bold w-2/3 text-center">
             Blockchain & Smart Contract Development
           </div>
         </div>
         {/* ITEM 3  */}
-        <div className="absolute bottom-[0%] left-[20%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
+        <div className="absolute -bottom-[10%] xl:-bottom-[4%] 2xl:bottom-[0%] left-[20%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
           <Image
             src={i3}
             alt=""
@@ -63,12 +63,12 @@ export default function B4() {
             height={1000}
             className="w-16 h-full updown-animation delay-2"
           />
-          <div className="text-black text-xl font-bold w-2/3 text-center">
+          <div className="text-black text-base xl:text-xl font-bold w-2/3 text-center">
             AI-Driven Connectivity & Data Models
           </div>
         </div>
         {/* ITEM 4  */}
-        <div className="absolute bottom-[4%] right-[19%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
+        <div className="absolute -bottom-[4%] xl:-bottom-[0%] 2xl:bottom-[4%] right-[19%] flex flex-col justify-between items-center gap-5 pr-20 py-14">
           <Image
             src={i4}
             alt=""
@@ -76,7 +76,7 @@ export default function B4() {
             height={1000}
             className="w-16 h-full updown-animation delay-3"
           />
-          <div className="text-black text-xl font-bold w-full text-center">
+          <div className="text-black text-base xl:text-xl font-bold w-full text-center">
             Global Connectivity Solutions
           </div>
         </div>

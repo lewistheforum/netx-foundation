@@ -51,7 +51,7 @@ export default function B5() {
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Application
             </h2>
-            <div className="px-6 pb-5 pr-16 text-base">
+            <div className="px-6 pb-5 pr-10 text-base">
               <div className="flex flex-row gap-3 mt-3">
                 + Provide your project details, including team info and project
                 category.
@@ -88,7 +88,7 @@ export default function B5() {
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Evaluation
             </h2>
-            <div className="px-6 pb-5 pr-16 text-base">
+            <div className="px-6 pb-5 pr-10 text-base">
               <div className="flex flex-row gap-3 mt-3">
                 + After receiving your application, our team will review it and
                 reach out for further discussions.
@@ -122,7 +122,7 @@ export default function B5() {
             <h2 className="text-xl font-semibold mb-2 bg-white border-y border-black px-6 py-3">
               Decision
             </h2>
-            <div className="px-6 pb-5 pr-16 text-base">
+            <div className="px-6 pb-5 pr-10 text-base">
               <div className="flex flex-row gap-3 mt-3">
                 + If approved, the grant will be awarded with the necessary
                 support for your project&apos;s development.

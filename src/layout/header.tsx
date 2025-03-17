@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <div className="text-white">
-      <div className="bg-black flex flex-row justify-between items-center p-5 px-5 lg:px-44">
+      <div className="bg-black flex flex-row justify-between items-center p-5 px-5 lg:px-32 xl:px-44">
         <div className="flex w-full">
           <Image
             src={logo}
@@ -58,7 +58,7 @@ export default function Header() {
           priority
           className="object-cover opacity-10"
         />
-        <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 p-10 px-5 lg:px-44">
+        <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 p-10 px-5 lg:px-32 xl:px-44">
           <div className="lg:col-span-7 flex flex-col justify-center gap-6 ">
             <div className="text-black text-5xl font-semibold">
               Fueling the Future of DePIN and AI Innovation
